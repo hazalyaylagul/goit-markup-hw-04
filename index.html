@@ -17,7 +17,17 @@
     <link rel="stylesheet" href="./css/modern-normalize.min.css" />
 
     <title>Document</title>
+    <style>
+      ul {
+        list-style-type: none;
+      }
+
+      ul li a {
+        text-decoration: none;
+      }
+    </style>
   </head>
+
   <body>
     <header class="header-main">
       <div class="main-container container">
@@ -61,9 +71,11 @@
           <h2 class="visually-hidden">yok</h2>
           <ul class="section-two-list">
             <li class="list-item">
-              <svg width="64" height="64">
-                <use href="./images/icons.svg#icon-antenna-1"></use>
-              </svg>
+              <div>
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna-1"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Strategy</h3>
               <p class="list-text">
                 Our goal is to identify the business problem to walk away with
@@ -71,6 +83,11 @@
               </p>
             </li>
             <li class="list-item">
+              <div class="core-li-icons">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut-1"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Punctuality</h3>
               <p class="list-text">
                 Bring the key message to the brand's audience for the best price
@@ -78,6 +95,11 @@
               </p>
             </li>
             <li class="list-item">
+              <div class="core-li-icons">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock-1"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Diligence</h3>
               <p class="list-text">
                 Research and confirm brands that present the strongest digital
@@ -85,6 +107,9 @@
               </p>
             </li>
             <li class="list-item">
+              <svg width="64" height="64">
+                <use href="./images/icons.svg#icon-clock-1"></use>
+              </svg>
               <h3 class="list-title">Technologies</h3>
               <p class="list-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -105,13 +130,35 @@
                 <p class="three-text">Product Designer</p>
                 <ul class="social_media">
                   <li class="media">
-                    <a href="" class="media-link"></a>
+                    <a href="" class="media-link">
+                      <svg width="16" height="16" class="icons-svg">
+                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="media">
-                    <a href="" class="media-link"></a>
+                    <a href="" class="media-link"
+                      ><svg width="16" height="16" class="icons-svg">
+                        <use
+                          href="./images/icons.svg#icon-twitter-1"
+                        ></use></svg
+                    ></a>
                   </li>
                   <li class="media">
-                    <a href="" class="media-link"></a>
+                    <a href="" class="media-link"
+                      ><svg width="16" height="16" class="icons-svg">
+                        <use
+                          href="./images/icons.svg#icon-facebook-1"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="media">
+                    <a href="" class="media-link"
+                      ><svg width="16" height="16" class="icons-svg">
+                        <use
+                          href="./images/icons.svg#icon-linkedin-1"
+                        ></use></svg
+                    ></a>
                   </li>
                 </ul>
               </div>
@@ -179,19 +226,19 @@
           <ul class="four-list">
             <li class="list-item">
               <div class="list-image-container">
-                <img src="" class="list_image" alt="" />
+                <img
+                  src="./images/1.jpg"
+                  alt="Banking App"
+                  class="four-img"
+                  width="360"
+                />
                 <p class="list_text">
                   14 stylish and user-friendly app design concepts· task manager
                   app· calorie tracker app · exotic fruit ecommerce app· cloud
                   storage app
                 </p>
               </div>
-              <img
-                src="./images/1.jpg"
-                alt="Banking App"
-                class="four-img"
-                width="360"
-              />
+
               <div class="list-item-text-container">
                 <h3 class="four-title">Banking App</h3>
                 <p class="four-text">App</p>
@@ -199,19 +246,19 @@
             </li>
             <li class="list-item">
               <div class="list-image-container">
-                <img src="" class="list_image" alt="" />
+                <img
+                  src="./images/2.jpg"
+                  alt="Cashless Payment"
+                  class="four-img"
+                  width="360"
+                />
                 <p class="list_text">
                   14 stylish and user-friendly app design concepts· task manager
                   app· calorie tracker app · exotic fruit ecommerce app· cloud
                   storage app
                 </p>
               </div>
-              <img
-                src="./images/2.jpg"
-                alt="Cashless Payment"
-                class="four-img"
-                width="360"
-              />
+
               <div class="list-item-text-container">
                 <h3 class="four-title">Cashless Payment</h3>
                 <p class="four-text">Marketing</p>
@@ -219,19 +266,19 @@
             </li>
             <li class="list-item">
               <div class="list-image-container">
-                <img src="" class="list_image" alt="" />
+                <img
+                  src="./images/3.jpg"
+                  alt="Meditaion App"
+                  class="four-img"
+                  width="360"
+                />
                 <p class="list_text">
                   14 stylish and user-friendly app design concepts· task manager
                   app· calorie tracker app · exotic fruit ecommerce app· cloud
                   storage app
                 </p>
               </div>
-              <img
-                src="./images/3.jpg"
-                alt="Meditaion App"
-                class="four-img"
-                width="360"
-              />
+
               <div class="list-item-text-container">
                 <h3 class="four-title">Meditation App</h3>
                 <p class="four-text">App</p>
@@ -239,19 +286,19 @@
             </li>
             <li class="list-item">
               <div class="list-image-container">
-                <img src="" class="list_image" alt="" />
+                <img
+                  src="./images/4.jpg"
+                  alt="Taxi Service"
+                  class="four-img"
+                  width="360"
+                />
                 <p class="list_text">
                   14 stylish and user-friendly app design concepts· task manager
                   app· calorie tracker app · exotic fruit ecommerce app· cloud
                   storage app
                 </p>
               </div>
-              <img
-                src="./images/4.jpg"
-                alt="Taxi Service"
-                class="four-img"
-                width="360"
-              />
+
               <div class="list-item-text-container">
                 <h3 class="four-title">Taxi Service</h3>
                 <p class="four-text">Marketing</p>
@@ -259,19 +306,19 @@
             </li>
             <li class="list-item">
               <div class="list-image-container">
-                <img src="" class="list_image" alt="" />
+                <img
+                  src="./images/5.jpg"
+                  alt="Screen Illustrations"
+                  class="four-img"
+                  width="360"
+                />
                 <p class="list_text">
                   14 stylish and user-friendly app design concepts· task manager
                   app· calorie tracker app · exotic fruit ecommerce app· cloud
                   storage app
                 </p>
               </div>
-              <img
-                src="./images/5.jpg"
-                alt="Screen Illustrations"
-                class="four-img"
-                width="360"
-              />
+
               <div class="list-item-text-container">
                 <h3 class="four-title">Screen Illustrations</h3>
                 <p class="four-text">Design</p>
@@ -279,19 +326,19 @@
             </li>
             <li class="list-item">
               <div class="list-image-container">
-                <img src="" class="list_image" alt="" />
+                <img
+                  src="./images/6.jpg"
+                  alt="Online Courses"
+                  class="four-img"
+                  width="360"
+                />
                 <p class="list_text">
                   14 stylish and user-friendly app design concepts· task manager
                   app· calorie tracker app · exotic fruit ecommerce app· cloud
                   storage app
                 </p>
               </div>
-              <img
-                src="./images/6.jpg"
-                alt="Online Courses"
-                class="four-img"
-                width="360"
-              />
+
               <div class="list-item-text-container">
                 <h3 class="four-title">Online Courses</h3>
                 <p class="four-text">Marketing</p>
