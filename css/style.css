@@ -327,6 +327,8 @@ img {
 }
 .footer-container {
   margin-right: 120px;
+  display: flex;
+  align-items: baseline;
 }
 .header-left {
   display: flex;
@@ -441,4 +443,7 @@ img {
 }
 .icons-svg {
   fill: #f4f4fd;
+}
+.footer .container {
+  display: flex;
 }
