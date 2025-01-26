@@ -286,6 +286,9 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.list_text {
+  transform: translateY(100%);
+}
 .list-item-text-container div:nth-child(2) {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
